@@ -1,0 +1,27 @@
+{
+  "name": "musta",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Arslan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongo": "^0.1.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^6.10.0",
+    "mongosh": "^2.3.2",
+    "nodemon": "^3.1.7",
+    "pug": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "website"
+  }
+}

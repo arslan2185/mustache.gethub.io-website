@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title MUSTACCHIO 
+		block style 
+		block script 
+			script(src="../static/scripe.js") 
+	body
+		navbar#navbar
+			#logo 
+				img(src="static/images/Mustacchio.png", alt="logo")
+			nav#nav 
+				#checkbox
+					div 
+					div 
+					div 	
+				input(type="checkbox", name="checkbox-nav", id="check")
+				ul.nav-menu 
+					li.nav-item #[a(href="/", class="nav-lick") Home]
+					li.nav-item #[a(href="/about", class="nav-link") About]
+					li.nav-item #[a(href="/gallery", class="nav-link") Gallery]
+					li.nav-item #[a(href="/blog", class="nav-link") Blog]
+					li.nav-item #[a(href="/contact", class="nav-link") Contact Us]
+		block body 
+		footer#foot 
+			.foot1 
+				p © by Mustachio. All rights reserved
+				 					 
+			
+				
